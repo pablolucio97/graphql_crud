@@ -1,0 +1,22 @@
+{
+  "name": "graphql_crud",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/pablolucio97/graphql_crud.git",
+  "author": "pablolucio97 <pablolucio97@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.14.8",
+    "@babel/node": "^7.14.9",
+    "@babel/preset-env": "^7.14.9",
+    "nodemon": "^2.0.12"
+  },
+  "scripts": {
+    "dev": "npx nodemon --exec babel-node src/index.js"
+  },
+  "dependencies": {
+    "apollo-server": "^3.1.2",
+    "graphql": "^15.5.1"
+  }
+}
